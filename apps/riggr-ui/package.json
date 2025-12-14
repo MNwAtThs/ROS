@@ -9,6 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@bufbuild/protobuf": "^1.10.0",
+    "@connectrpc/connect": "^1.5.2",
+    "@connectrpc/connect-web": "^1.5.2",
     "clsx": "^2.1.1",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
