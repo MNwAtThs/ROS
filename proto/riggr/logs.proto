@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package riggr.logs.v1;
+
+message LogLine {
+  string source = 1;
+  string line = 2;
+  int64 timestamp_unix_ms = 3;
+}

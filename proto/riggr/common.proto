@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package riggr.common.v1;
+
+message Empty {}
+
+message Version {
+  string name = 1;
+  string version = 2;
+  string git_sha = 3;
+}

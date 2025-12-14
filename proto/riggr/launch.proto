@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package riggr.launch.v1;
+
+message StartLaunchRequest {
+  string launch_file = 1;
+  repeated string args = 2;
+}
+
+message StartLaunchResponse { string launch_id = 1; }

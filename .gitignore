@@ -1,0 +1,26 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+dist/
+.vite/
+.turbo/
+.cache/
+
+# Tauri
+apps/riggr-ui/src-tauri/target/
+apps/riggr-ui/src-tauri/gen/
+
+# Rust
+/target/
+**/target/
+**/*.rs.bk
+
+# Logs
+*.log
+
+# Editor
+.vscode/
+.idea/

@@ -1,0 +1,9 @@
+{
+  "name": "riggr-monorepo",
+  "private": true,
+  "packageManager": "pnpm@10.25.0",
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ]
+}

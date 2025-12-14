@@ -1,0 +1,11 @@
+{
+  "productName": "Riggr",
+  "version": "0.1.0",
+  "identifier": "com.riggr.app",
+  "build": {
+    "beforeDevCommand": "",
+    "beforeBuildCommand": "",
+    "devUrl": "",
+    "frontendDist": ""
+  }
+}

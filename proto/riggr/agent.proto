@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package riggr.agent.v1;
+
+import "riggr/common.proto";
+
+service AgentService {
+  rpc GetVersion(riggr.common.v1.Empty) returns (riggr.common.v1.Version);
+}

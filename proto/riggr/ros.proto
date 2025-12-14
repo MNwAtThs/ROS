@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package riggr.ros.v1;
+
+import "riggr/common.proto";
+
+message Node {
+  string name = 1;
+  string namespace = 2;
+}
+
+message ListNodesRequest {}
+message ListNodesResponse { repeated Node nodes = 1; }
